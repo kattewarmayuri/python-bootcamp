@@ -1,0 +1,32 @@
+ q6 take a space separated input from a usre print altrnate elments
+ n=list(map(int,input().split()))
+ for i in range(0,len(n),2):
+     print(n[i])
+ q7 your given with a ss natural number 1to 10 print only even number
+ n=[1,2,3,4,5,6,7,8,9,10]
+ for i in range(len(n)):
+     if(i%2==0):
+         print(i)
+n=list(map(int,input().split(",")))
+for i in range(len(n)):
+      if(i%2==0):
+          print(i)
+count
+ n=list(map(int,input().split(",")))
+ count=0
+ for i in range(1,len(n),2):
+  count+=1
+ print(count)
+
+#q7.3 q7 your given with a ss find no of even element and odd elements
+n=list(map(int,input().split(" ")))
+even=0
+odd=0
+for i in range(0,len(n)):
+    if(n[i]%2==0):
+        even+=1
+    else:
+        odd+=1
+print(even,odd)
+
+    
